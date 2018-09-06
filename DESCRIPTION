@@ -1,0 +1,24 @@
+Type: Package
+Package: credicpp
+Title: CREDI Scoring
+Version: 1.1.0
+Date: 2018-09-06
+Author: Marcus Waldman <marcus_waldman@gse.harvard.edu>
+Maintainer: Marcus Waldman <marcus_waldman@gse.harvard.edu>
+Description: This function scores CREDI response data.
+License: MIT
+URL: https://sites.sph.harvard.edu/credi/
+Imports: 
+    Rcpp (>= 0.12.18),
+    coda (>= 0.19-1),
+    doParallel (>= 1.0.11),
+    doRNG (>= 1.7.1),
+    foreach (>= 1.4.4),
+    MHadaptive (>= 1.1-8),
+    mitools (>= 1.1.0),
+    numDeriv (>= 2016.8-1),
+    svDialogs (>= 1.0.0),
+    stats (>= 3.5.0)
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
